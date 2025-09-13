@@ -1,0 +1,9 @@
+/* Import Tailwind CSS via CDN if not using a build tool */
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css');
+
+/* Custom global styles */
+body {
+  /* Use regular CSS if @apply is not supported */
+  background-color: #f3f4f6; /* bg-gray-100 */
+  color: #111827; /* text-gray-900 */
+}
